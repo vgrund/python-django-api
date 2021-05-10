@@ -34,5 +34,5 @@ jobs:
     - name: Export Spec and run app.
       run : |
         ls
-        python manage.py generateschema --file openapi-schema.yml
+        manage.py generateschema --file openapi-schema.yml
         # python manage.py runserver
