@@ -34,5 +34,6 @@ jobs:
     - name: Export Spec and run app.
       run : |
         ls
-        manage.py generateschema --file openapi-schema.yml
+        python ./manage.py spectacular --file schema.yml 
+        cat ./schema.yml
         # python manage.py runserver
