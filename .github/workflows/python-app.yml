@@ -33,5 +33,6 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Export Spec and run app.
       run : |
+        ls
         python manage.py generateschema --file openapi-schema.yml
-        python manage.py runserver
+        # python manage.py runserver
