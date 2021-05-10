@@ -1,3 +1,5 @@
+[![Python application](https://github.com/vgrund/python-django-api/actions/workflows/python-app.yml/badge.svg)](https://github.com/vgrund/python-django-api/actions/workflows/python-app.yml)
+
 # API em Python com framework Django e OpenApi Spec
 
 ## Dependências
